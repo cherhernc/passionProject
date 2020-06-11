@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+div {
+	margin: 0;
+	padding-top: 80px;
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	text-align: right;
+	position: fixed;
+	margin-top: 0;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+	color: white;
+	font-size: 16px;
+
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #fcba03;
+	text-decoration: none;
+}
+
+.heroText {
+	text-align: left;
+	padding-left: 0px;
+	padding-top: 100px;
+	padding-bottom: 32px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 32px;
+}
+h3{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bolder;
+}
+p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+main {
+	margin-left: 240px;
+	margin-right: 240px;
+	padding-top: 0;
+	padding-bottom: 240px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 500px 500px;
+	grid-row-gap: 120px;
+	grid-column-gap: 16px;
+	padding-top: 0;
+
+}
+
+#aboutPara{
+		font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 1280px;
+}
+#collage1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	padding: 5px;
+
+}
+
+#collage2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 5px;
+
+}
+
+#collage3 {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	padding: 5px;
+
+}
+
+#collage4 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	padding: 5px;
+
+}
+
+#collage5 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 5px;
+
+}
+
+#collage6 {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	padding: 5px;
+
+}
+
+.mainImages {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 32px;
+	width: 50%;
+}
+
+
+button {
+height: 100px;
+	width: 200px;
+	font-size: 20px;
+	margin-bottom: 100px;
+	background-color: black;
+	margin-left: 85%;
+
+}
+
+
+footer{
+	font-size: 16px;
+	color: black;
+	opacity: 70%;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 240px;
+	margin-bottom: 64px;
+}
